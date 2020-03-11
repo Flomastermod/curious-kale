@@ -3,7 +3,7 @@ permalink: '/:title/'
 title: Snipcart
 snipcart_js: 'https://cdn.snipcart.com/themes/v3.0.4/default/snipcart.js'
 snipcart_css: 'https://cdn.snipcart.com/themes/v3.0.4/default/snipcart.css'
-snipcart_api_key: ''
+snipcart_api_key: OGI4M2MyZDMtYWJhNi00MTkwLThjZDMtMzZkYWM1ZmNkNTEzNjM3MTk1MDYzODc0ODI3NDAz
 logos:
   light:
     optimized: images/logo-white.svg
@@ -16,28 +16,31 @@ palettes:
   default:
     sass:
       default: '#FFFFFF'
-      light: '#F0F0F0'
-      medium: '#6B797A'
-      dark: '#384647'
+      bg_image_cart_fallback: /images/header.jpg
+      bg_image_cart_optimized: /images/cart-bg.webp
       active: '#88DD9B'
-      active_light: '#C0FDB6'
+      light_grey: '#6B797A'
+      dark_grey: '#273132'
+      bg_image_secondary_fallback: /images/leaf-light-grey.svg
+      bg_image_primary_optimized: /images/header.webp
       active_medium: '#5C9174'
       active_dark: '#547567'
-      dark_grey: '#273132'
-      light_grey: '#6B797A'
-      bg_image_primary_optimized: /images/header.webp
-      bg_image_primary_fallback: /images/header.jpg
-      bg_image_secondary_optimized: /images/leaf-light-grey.svg
-      bg_image_secondary_fallback: /images/leaf-light-grey.svg
-      bg_image_product_optimized: /images/leaf.svg
       bg_image_product_fallback: /images/leaf.svg
-      bg_image_cart_optimized: /images/cart-bg.webp
-      bg_image_cart_fallback: /images/header.jpg
+      medium: '#6B797A'
+      light: '#F0F0F0'
+      dark: '#384647'
+      bg_image_product_optimized: /images/leaf.svg
+      bg_image_primary_fallback: /images/header.jpg
+      active_light: '#C0FDB6'
+      bg_image_secondary_optimized: /images/leaf-light-grey.svg
 sass:
   style: nested
   precision: 10
 plugins:
   - jekyll-menus
+collections:
+  posts:
+    permalink: '/posts/:title/'
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -52,6 +55,3 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
-collections:
-  posts:
-    permalink: '/posts/:title/'
