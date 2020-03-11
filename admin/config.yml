@@ -31,6 +31,10 @@ collections:
             label: Snipcart JavaScript file URL
             required: false
           - widget: string
+            name: custom_js
+            label: Pula JavaScript file URL
+            required: false
+          - widget: string
             name: snipcart_css
             label: Snipcart CSS file URL
             required: false
