@@ -47,7 +47,7 @@ Aliquam quis laoreet lectus. Proin non mattis nulla, quis posuere mi. Mauris ven
   data-item-name="# scurta de baiker">
   Add to cart
 </button>
-
+<head>
 <style>
 div.gallery {
   margin: 5px;
@@ -76,7 +76,7 @@ div.desc {
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
-
+</head>
 
 <div class="gallery">
   <a target="_blank" href="https://images.unsplash.com/photo-1583931027649-6218e01c6e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
