@@ -36,7 +36,7 @@ layout: product
 # Cea mai pizdoasa scurta de baiker
 
 Aliquam quis laoreet lectus. Proin non mattis nulla, quis posuere mi. Mauris venenatis, magna at pellentesque commodo, lectus risus vehicula elit, nec dignissim nisl sapien id leo. Nulla non pretium metus, vitae finibus lectus. Aliquam in posuere risus. Curabitur ultrices ornare magna porttitor commodo. Curabitur eu tempor orci, sed pretium quam. Vestibulum condimentum, arcu nec pulvinar fringilla, lorem odio varius arcu, in porta tellus eros sed neque. Suspendisse efficitur eget erat sit amet efficitur. Proin maximus nibh eu sapien consequat, non porttitor risus consequat. Donec maximus odio sed nibh convallis luctus.
-<head>
+
 <style>
 div.gallery {
   margin: 5px;
@@ -65,7 +65,7 @@ div.desc {
   </a>
   <div class="desc">Add a description of the image here</div>
 </div>
-</head>
+
 
 <div class="gallery">
   <a target="_blank" href="https://images.unsplash.com/photo-1583931027649-6218e01c6e8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
